@@ -1,0 +1,91 @@
+/**index.wxss**/
+
+.schedulebg {
+  text-align: center;
+  width: 100%;
+  height: 400rpx;
+}
+
+.schedule {
+  text-align: center;
+}
+
+.schedule > view {
+  color: #ffba5a;
+  font-size: 72rpx;
+  line-height: 200rpx;
+}
+
+.remainingText {
+  font-size: 32rpx;
+}
+
+.remainingDaysNum {
+  color: #c70039;
+  font: italic 45rpx 黑体;
+  margin-left: 10rpx;
+  margin-right: 14rpx;
+}
+
+.schedule > progress {
+  margin-top: 32rpx;
+  margin-bottom: 40rpx;
+}
+
+.tagImg {
+  width: 100%;
+  height: 128rpx;
+}
+
+.planTags {
+  margin-top: 8rpx;
+  color: #727171;
+}
+
+.planTags > view {
+  padding: 32rpx 28rpx;
+  border-bottom: 1rpx solid rgb(211, 211, 211);
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+}
+
+.verticalLine {
+  width: 16rpx;
+  height: 34rpx;
+  background: #ff7657;
+  margin-right: 20rpx;
+}
+
+.delLine {
+  text-decoration: line-through;
+}
+
+.maskLayer {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.operateModal {
+  position: absolute;
+  z-index: 5;
+  top: 406rpx;
+  left: 206rpx;
+  background: rgba(255, 255, 255, 0.753);
+  border-radius: 15rpx;
+  width: 106rpx;
+}
+
+.operateModal > view {
+  border: none;
+  border-bottom: 1px solid rgb(155, 154, 154);
+  padding: 18rpx;
+  text-align: center;
+  font: 28rpx 宋体;
+  color: rgb(61, 60, 60);
+  letter-spacing: 3rpx;
+}
